@@ -1,5 +1,4 @@
 ﻿
-
 namespace tabuleiro
 {
     class Peca
@@ -18,5 +17,7 @@ namespace tabuleiro
             this.tabuleiro = tabuleiro;
             this.cor = cor;
         }
+
+       
     }
 }
