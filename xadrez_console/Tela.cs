@@ -13,12 +13,12 @@ namespace xadrez_console
                 {
                     if (tab.peca(i, j) == null)
                     {
-                        Console.WriteLine("- ");
+                        Console.Write("- ");
                     }
 
                     else
                     {
-                        Console.WriteLine(tab.peca(i, j) + " ");
+                        Console.Write(tab.peca(i, j) + " ");
                     }
                 }
             }
