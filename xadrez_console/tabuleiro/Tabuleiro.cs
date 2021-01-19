@@ -1,4 +1,6 @@
-﻿namespace tabuleiro
+﻿using System;
+
+namespace tabuleiro
 {
     class Tabuleiro
     {
@@ -30,6 +32,12 @@
             ValidarPosicao(pos);
             return peca(pos) != null;
         }
+
+        internal bool posicaoValida(Posicao pos)
+        {
+            throw new NotImplementedException();
+        }
+
         public void ColocarPeca(Peca p, Posicao pos)
         {
             pecas[pos.linha, pos.coluna] = p;
